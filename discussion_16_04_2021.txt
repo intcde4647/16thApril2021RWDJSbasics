@@ -99,6 +99,7 @@ let,var,const
 ----------------------------------------------\
 let var const
 ---------------------------------------------------------
+https://codeburst.io/javascript-whats-the-difference-between-null-undefined-37793b5bfce6
 
 
 
