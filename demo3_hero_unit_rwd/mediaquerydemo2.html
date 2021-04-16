@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+  .row::after {
+  content: "";
+  clear: both;
+  display: block;
+}    
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: red;
+   /* background-color: #33b5e5; */
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: yellow;
+  padding: 15px;
+  color: purple;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: green;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Republic of India</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 menu">
+    <ul>
+    <li>Culture</li>
+    <li>Cities</li>
+    <li>Food</li>
+    <li>Religion</li>
+   
+    </ul>
+  </div>
+
+  <div class="col-6">
+    <h1>India</h1>
+    <p>India, officially the Republic of India, is a country in South Asia. It is the second-most populous country, the seventh-largest country by area, and the most populous democracy in the world. </p>
+  </div>
+
+  <div class="col-3 right">
+    <div class="aside">
+      <h2>Culture</h2>
+      <p>The culture of India refers collectively to the thousands of distinct and unique cultures of all religions and communities present in India. India's languages, religions, dance, music, architecture, food and customs differ from place to place within the country.</p>
+      <h2>Cities</h2>
+      <p>There are 4,000 cities and towns in India. About 300 cities have population over 1,00,000. Seven cities have population more than 3 million. Greater Mumbai still is the most populated city in its 440 sq.</p>
+      <h2>Food</h2>
+      <p>Indian cuisine consists of a wide variety of regional and traditional cuisines native to the Indian subcontinent. </p>
+      <h2>Religion</h2>
+      <p>Indian religions, sometimes also termed Dharmic religions or Indic religions, are the religions that originated in the Indian subcontinent; namely Hinduism, Jainism, Buddhism, and Sikhism..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Resize the browser window to see how the content respond to the resizing.</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+1) RWD ?
+2) Can we implementing RWD without Bootstrap?
+yes.
+3) What are the points/concepts which we need to check to make the pages responsive.
+   a) media query/queries
+   b) viewport
+   c) grid/flexboxlayout
+
+4) What is viewport?
+https://www.w3schools.com/css/css_rwd_viewport.asp
+
+What is The Viewport?
+The viewport is the user's visible area of a web page.
+
+The viewport varies with the device, and will be smaller on a mobile phone than on a computer screen.
+
+Before tablets and mobile phones, web pages were designed only for computer screens, and it was common for web pages to have a static design and a fixed size.
+
+Then, when we started surfing the internet using tablets and mobile phones, fixed size web pages were too large to fit the viewport. To fix this, browsers on those devices scaled down the entire web page to fit the screen.
+
+This was not perfect!! But a quick fix.
+----------------------------------------------------------------------------------------------------------
+
+4) What is meta tag?
+and data about data.
+It is something which is giving information about the page and most of the time this information is used
+by the search engines. 
+
+HTML5 one metatag got added called viewport  to provide the information related to the display and this meta
+tag is for the browsers.
+
+With the media query we can change the dimension/size of the components like button or images.
+We can plan for not showing some of the components or showing it in a different way. For example
+in desktop or laptop we were displaying them as radio buttons but while display in smaller divices
+we change it to a dropdown list. 
+
+username and gender===> when the device is laptop or desktop display gender as radio button and when
+it goes into tablet/mobile phone let us plan for a dropdown list and with a submit button.
+
+-------------------------------------------------------------------------------------------------------------
+https://www.w3schools.com/js/default.asp
+
+JS makes the HTML page having behavior. Which means we are able to make the page functional, interactive,
+dynamic.
+HTML=====> basic structuring/layout of the web pages.
+CSS======> styling
+JS=======> interactive and dynamic
+
+------------------------------------------------------
+
+JavaScript can be part of the same html file or we can have a separate file to store only JS.
+
+
+Predefined objects with which we work and some of the objects are part of DOM ( Document Object Model)
+Objects String, Date, Array .   
+
+When we talk about DOM object each object basically represents any element of HTML.
+
+https://www.w3schools.com/js/default.asp
+
+ document object which represents the entire page.
+--------------------------------------------------------
+Where we can write or call JS code?
+ans: We can write or call JS code in the head and body both.
+So do we need to end the JS statements with semi colon?
+and No it is optional. As part of good practice we try to keep semi colon. 
+
+When semi colon is mandatory ? 
+and when we are keeping multiple lines in the same line.
+document.write("Hello")
+document.write("World")
+The above way of writing is perfectly fine.
+
+document.write("Hello"); document.write("World")
+In the above case ; is must because two executable lines are put together.
+
+So with the browser we have JavaScript Engine which interprets the JS code.
+
+How come JS know that the code is not HTML but it is JS?
+ans: by looking at the script tag. So anything enclosed within the script tag is being considered as script.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script language="javascript">
+        document.write("Hello friends!!!!!");
+    </script>
+
+</body>
+</html>
+---------------------------------
+let,var,const
+----------------------------------------------\
+let var const
+---------------------------------------------------------
+
+
+
+
+
+
