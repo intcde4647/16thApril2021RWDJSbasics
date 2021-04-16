@@ -17,9 +17,10 @@ function greet()
    alert(typeof(component)); 
    alert(typeof(employee));
    alert(typeof(num));
-   
+
    alert("The employee object"+employee);
    alert(employee.id+" "+employee.name+" "+employee.basic);
+   
    
    alert("Hello "+name);
 alert("HEllo"+component.value);
